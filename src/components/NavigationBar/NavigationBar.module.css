@@ -1,0 +1,37 @@
+.MainHeader {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 16px 16px;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.MainNav {
+  vertical-align: middle;
+}
+
+.MainNavFlexContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.MainNavBrand {
+  color: #004080;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.BrandLogo {
+  display: flex;
+  flex-direction: column;
+}
+
+.MainNavMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  margin: 8px 0;
+}
